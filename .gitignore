@@ -1,0 +1,111 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+*.local
+
+# =========================
+# Dependencies
+# =========================
+node_modules/
+.pnp/
+.pnp.js
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+out/
+.tmp/
+temp/
+.cache/
+.nyc_output/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Testing / Coverage
+# =========================
+coverage/
+*.lcov
+report/
+reports/
+
+# =========================
+# Runtime / Process
+# =========================
+.pid
+*.pid
+*.pid.lock
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Database / ORM (Prisma etc.)
+# =========================
+prisma/migrations/
+*.sqlite
+*.sqlite3
+*.db
+dump.sql
+*.bak
+
+# =========================
+# Uploads / User files (adjust if needed)
+# =========================
+uploads/
+storage/
+public/uploads/
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.iml
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Docker
+# =========================
+docker-data/
+**/docker-data/
+*.pid
+
+# =========================
+# Monorepo / Tooling
+# =========================
+.turbo/
+.nx/
+lerna.json
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.swo
+*.swn
+*.orig
